@@ -31,7 +31,7 @@ body {
   background-position: -10rem 2rem, -52rem -29rem;
   position: relative;
   width: 65rem;
-  height: 35rem;
+  margin: 12rem 0;
 }
 
 .box-img {
@@ -40,7 +40,7 @@ body {
 }
 
 .left {
-  margin: 4.5rem auto;
+  margin: 10% auto;
 }
 
 @media (max-width: 767px) {
@@ -73,6 +73,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+  }
+  .left {
+    margin: 25% auto;
+    padding-top: 20%;
   }
   .box-img {
     display: none;
