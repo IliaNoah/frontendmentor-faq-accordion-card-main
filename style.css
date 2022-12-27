@@ -31,7 +31,7 @@ body {
   background-position: -10rem 2rem, -52rem -29rem;
   position: relative;
   width: 65rem;
-  margin: 12rem 0;
+  height: 35rem;
 }
 
 .box-img {
@@ -47,6 +47,7 @@ body {
   .container {
     background-size: 60%;
     background-position: -9rem 6rem, -8.5rem 6rem;
+    height: 100%;
   }
   .box-img {
     width: 10rem;
@@ -57,8 +58,10 @@ body {
 @media (max-width: 575px) {
   .container {
     width: 20rem;
+    height: 100%;
     background-image: none;
     position: relative;
+    margin: 12rem 0;
   }
   .container::before {
     content: url(images/illustration-woman-online-mobile.svg);
